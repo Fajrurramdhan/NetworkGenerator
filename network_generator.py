@@ -1,11 +1,7 @@
 import streamlit as st
 import time
 
-"""# Using object notation
-add_selectbox = st.sidebar.selectbox(
-    "How would you like to be contacted?",
-    ("Email", "Home phone", "Mobile phone")
-)"""
+
 
 # Using "with" notation
 with st.sidebar:
