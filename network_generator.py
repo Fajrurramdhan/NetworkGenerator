@@ -15,14 +15,7 @@ st.title("Integrate Module Network Generation")
 # Layout with two main columns
 col1, col2 = st.columns([2, 3])
 
-
-# Left column (Input Data)
-with col1:
-    st.header("Input Data")
-   
-    # Base Area (Province) selection
-    base_area = st.selectbox("Base Area (Province)", ["Select"] + 
-                             ["Aceh", "Sumatra Utara", "Sumatra Barat",
+province = ["Aceh", "Sumatra Utara", "Sumatra Barat",
                               "Riau", "Kepulauan Riau", "Jambi",
                               "Sumatra Selatan", "Bengkulu", "Lampung",
                               "Bangka Belitung", "DKI Jakarta","Banten","Jawa Barat",
@@ -33,8 +26,13 @@ with col1:
                               "Sulawesi Barat", "Nusa Tenggara Barat", "Nusa Tenggara Timur",
                               "Bali", "Maluku", "Maluku Utara",
                               "Papua Barat", "Papua", "Papua Barat Daya",
-                              "Papua Tengah", "Papua Pegunungan", "Papua Selatan",
-                              ])
+                              "Papua Tengah", "Papua Pegunungan", "Papua Selatan",]
+# Left column (Input Data)
+with col1:
+    st.header("Input Data")
+   
+    # Base Area (Province) selection
+    base_area = st.selectbox("Base Area (Province)", ["Select"] + province)
    
     # Directory Name input
     directory_name = st.text_input("Directory Name")
