@@ -21,7 +21,20 @@ with col1:
     st.header("Input Data")
    
     # Base Area (Province) selection
-    base_area = st.selectbox("Base Area (Province)", ["Select"] + ["Province A", "Province B", "Province C"])
+    base_area = st.selectbox("Base Area (Province)", ["Select"] + 
+                             ["Aceh", "Sumatra Utara", "Sumatra Barat",
+                              "Riau", "Kepulauan Riau", "Jambi",
+                              "Sumatra Selatan", "Bengkulu", "Lampung",
+                              "Bangka Belitung", "DKI Jakarta", "Jawa Barat",
+                              "Jawa Tengah", "Jawa Timur", "DI Yogyakarta",
+                              "Kalimantan Barat", "Kalimatan Tengah", "Kalimantan Selatan",
+                              "Kalimantan Timur", "Kalimantan Utara", "Sulawesi Utara",
+                              "Gorontalo", "Sulawesi Tengah", "Sulawesi Selatan",
+                              "Sulawesi Barat", "Nusa Tenggara Barat", "Nusa Tenggara Timur",
+                              "Bali", "Maluku", "Maluku Utara",
+                              "Papua Barat", "Papua", "Papua Barat Daya",
+                              "Papua Tengah", "Papua Pegunungan", "Papua Selatan",
+                              ])
    
     # Directory Name input
     directory_name = st.text_input("Directory Name")
