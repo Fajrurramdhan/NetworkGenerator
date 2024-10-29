@@ -32,7 +32,7 @@ with col1:
     st.header("Input Data")
    
     # Base Area (Province) selection
-    base_area = st.selectbox("Base Area (Province)", ["Select"] + province)
+    base_area = st.selectbox("Base Area (Province)", ["Select Area"] + province)
    
     # Directory Name input
     directory_name = st.text_input("Directory Name")
