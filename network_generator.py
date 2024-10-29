@@ -5,25 +5,8 @@ import time
 
 # Using "with" notation
 with st.sidebar:
-    st.button("Dashboard", type="primary")
-    if st.button("Disaster"):
-        st.write("Why hello there")
-    elif st.button("Master Data"):
-         st.button("Depot")
-         st.button("Shelter")
-         st.button("Zones")
-    elif st.button("Network Generator"):
-        st.write("Why hello there")
-    elif st.button("Evacuation Planning"):
-        st.write("Why hello there")
-    elif st.button("Personal Scheduling"):
-        st.write("Why hello there")
-    elif st.button("Setting"):
-        st.write("Why hello there")
-    elif st.button("Log Out"):
-        st.write("Why hello there")
+    st.button("Network Generation", type="primary")
     
-
 
 # Title
 st.title("Integrate Module Network Generation")
