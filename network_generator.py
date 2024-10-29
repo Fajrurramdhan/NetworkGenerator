@@ -44,15 +44,7 @@ with col2:
     directory_output = st.text_input("Directory Output", "not created yet", disabled=True)
     status_file_input = st.text_input("Status File Input", "not provided yet", disabled=True)
    
-    # Command Console
-    st.markdown("**Command Console**")
-    st.warning("Empty the command")
-    command = st.text_input("Command Console", "python main.py directory_name/sample_input.json")
-    st.button("Execute Command")
-   
-    # Console Status
-    st.markdown("**Console Status**")
-    st.empty()  # Placeholder for console status messages
+    
 
 
 # Additional guide button
