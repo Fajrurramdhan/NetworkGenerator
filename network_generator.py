@@ -25,7 +25,7 @@ with col1:
                              ["Aceh", "Sumatra Utara", "Sumatra Barat",
                               "Riau", "Kepulauan Riau", "Jambi",
                               "Sumatra Selatan", "Bengkulu", "Lampung",
-                              "Bangka Belitung", "DKI Jakarta", "Jawa Barat",
+                              "Bangka Belitung", "DKI Jakarta","Banten","Jawa Barat",
                               "Jawa Tengah", "Jawa Timur", "DI Yogyakarta",
                               "Kalimantan Barat", "Kalimatan Tengah", "Kalimantan Selatan",
                               "Kalimantan Timur", "Kalimantan Utara", "Sulawesi Utara",
